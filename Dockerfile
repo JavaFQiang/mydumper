@@ -50,7 +50,7 @@ RUN \
   make install
 
 
-FROM debian:bullseye
+FROM debian:11.5
 ARG DEBIAN_FRONTEND=noninteractive
 RUN \
   apt-get update && \
